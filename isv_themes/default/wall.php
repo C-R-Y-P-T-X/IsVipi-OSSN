@@ -90,7 +90,7 @@
                     <!--if it is a video -->
                   <?php } else if ((!empty($f['att_link']) || !empty($f['att_title']) || !empty($f['att_description'])) && (!empty($f['att_video']))){?>
                   <div class="att_video">
-                  	<embed src="<?php echo $f['att_video'] ?>" type="application/x-shockwave-flash" allowscriptaccess="always" width="100%" height="100%"></embed>
+                  	<embed src="<?php echo $f['att_video'] ?>" type="application/x-shockwave-flash" allowscriptaccess="always" width="100%" height="50%"></embed>
                     <div class="clear"></div>
                     <div class="title">
                         <a href="<?php echo $f['att_link'] ?>" target="_blank"><?php echo $f['att_title'] ?></a>
